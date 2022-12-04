@@ -1,0 +1,24 @@
+{
+  "name": "@hbisedm/hello",
+  "version": "0.0.1",
+  "description": "",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "browser": "dist/index.min.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "vite build"
+  },
+  "author": "hbisedm",
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "vite-plugin-banner": "^0.6.1"
+  },
+  "dependencies": {
+    "@hbisedm/shared": "workspace:^1.0.0"
+  }
+}

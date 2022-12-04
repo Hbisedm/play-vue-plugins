@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "declarationDir": "./dist",
+    "resolveJsonModule": true,
+    "lib": ["ESNext", "dom"]
+  }
+}
